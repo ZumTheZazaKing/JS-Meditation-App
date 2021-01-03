@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="Gamov logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Meditation App</title>
+</head>
+<body>
+
+    <video id="videoContainer">
+        <source id="video" src="rain.mp4" type="video/mp4">
+        Your browser does not support the video tag
+    </video>
+
+    <div id="container">
+        <p id="sound">Rainy Days</p>
+        <button id="play" onclick="playVideo()">▶</button>
+        <button id="pause" class="hide" onclick="pauseVideo()"><strong>|&nbsp;|</strong></button>
+        <br><br>
+        <button id="rain" onclick="toRain()">☂</button>
+        <button id="waves" onclick="toWaves()">☀</button>
+        <button id="birds" onclick="toBirds()">♫</button>
+    </div>
+    
+</body>
+</html>
